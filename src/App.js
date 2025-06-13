@@ -490,7 +490,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post("http://localhost:5000/plan", {
+    const res = await axios.post("https://travelplannerbackend.onrender.com", {
       source,
       destination,
       startDate,
